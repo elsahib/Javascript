@@ -19,9 +19,21 @@
 
 // Excercise 5
 
-function test(fname,lname,age) {
+// function test(fname,lname,age) {
 
-    return "Hello"+" "+ fname+" "+lname+": in 10 years you will be "+(age+10)
+//     return "Hello"+" "+ fname+" "+lname+": in 10 years you will be "+(age+10)
 
+// }
+// console.log(test('osman','elsahib',24))
+
+//Excercise 6 (functions called inside another function)
+
+function getYear(age) {
+    return 2020 - age
 }
-console.log(test('osman','elsahib',24))
+
+function whatyear(name,age) {
+    var date = getYear(age)
+    return "Hello "+name+" you were born in "+ date
+}
+console.log(whatyear("Osman", 25))
