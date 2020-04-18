@@ -1,0 +1,16 @@
+ways to declare variables in JS:
+
+Var - 
+old way to create variables
+
+const - 
+is to declare a variable that is not changable later in the program, the variable is Constant. This kind of variables cann't be undefined or without a value. it must be inistialised in the same line of declaration 
+
+let -
+wroks like var, it can be declared without initialization and it's value can be changed later on in the program
+
+
+for text concatination you usually use + sign
+you can also use var1.concat(' ',var2)
+
+
