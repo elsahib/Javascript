@@ -29,11 +29,13 @@
 //Excercise 6 (functions called inside another function)
 
 function getYear(age) {
-    return 2020 - age
+    var today=new Date()
+    var thisyear = today.getFullYear()
+    return  thisyear - age
 }
 
 function whatyear(name,age) {
     var date = getYear(age)
     return "Hello "+name+" you were born in "+ date
 }
-console.log(whatyear("Osman", 25))
+console.log(whatyear("Osman", 22))
