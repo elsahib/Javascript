@@ -13,4 +13,6 @@ wroks like var, it can be declared without initialization and it's value can be 
 for text concatination you usually use + sign
 you can also use var1.concat(' ',var2)
 
+nothing further on this note
+
 
